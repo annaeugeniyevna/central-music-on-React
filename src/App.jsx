@@ -2,6 +2,8 @@ import {Routes, Route} from "react-router-dom";
 
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import PromoBanner from "./components/PromoBanner";
+
 import Guitars from "./pages/Guitars";
 import Accessories from "./pages/Accessories";
 import Storage from "./pages/Storage";
@@ -19,7 +21,12 @@ const App = () => {
       </div>
 
      <Routes>
-      <Route path="/" element={<Hero/>}/>
+      <Route path="/" element={
+        <>
+          <Hero/>
+          <PromoBanner/>
+        </>
+        }/>
 
       <Route path="/guitars" element={<Guitars/>}/>
       <Route path="/accessories" element={<Accessories/>}/>
