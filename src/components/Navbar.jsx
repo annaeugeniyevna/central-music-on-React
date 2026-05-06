@@ -11,7 +11,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-black/70 fixed top-0 w-full z-[999]">
+        <header className="bg-black/60 fixed top-0 w-full z-[999]">
             <div 
             className="max-w-[1440px] mx-auto px-[5%]">
                 <nav className="flex justify-between items-center pt-10 pb-2 z-[999]">
@@ -21,7 +21,7 @@ const Navbar = () => {
                         </a>
                         <button 
                         className="block relative z-[1000]"
-                        onClick={() => { console.log("Клік працює!");
+                        onClick={() => { 
                             setIsOpen(!isOpen)}}>
                             {isOpen ? (
                             <X className="w-8 h-8 text-white"
