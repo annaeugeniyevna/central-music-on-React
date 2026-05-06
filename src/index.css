@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+
+/* Fonts start */
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    src: url('./assets/fonts/WorkSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    src: url('./assets/fonts/WorkSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    src: url('./assets/fonts/WorkSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    src: url('./assets/fonts/WorkSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./assets/fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
+/* Fonts end */
+
+
+/* Font variables start */
+
+@theme {
+    --font-work: 'Work Sans', sans-serif; 
+    --font-montserrat: 'Montserrat', sans-serif;
+
+    /* Color variables start */
+    
+    --color-primary: #AB0433;
+    --color-btn-bg: #FF753A;
+    --color-dark-gray: #252525;
+    --color-gray: #505050;
+    --color-medium-gray: #767676;
+    --color-light-gray: #C4C4C4;
+    --color-light-blue: #ECECEC;
+    --color-border: #EAEAEA;
+    --color-item-nav: #FCFCFC;
+    --color-white: #FFFFFF;
+    
+    /* Color variables end */
+}
+
+/* Font variables end */
