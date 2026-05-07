@@ -16,7 +16,7 @@ const Hero = () => {
             <div
             className="max-w-[1440px] mx-auto px-[5%] relative x-10">
                 <h1 
-                className="max-w-[280px] font-work font-bold text-4xl text-white text-center mx-auto">
+                className="max-w-[280px] font-montserrat font-bold text-4xl text-white text-center mx-auto">
                     Fullfilling dreams with strings attached
                 </h1>
             </div>

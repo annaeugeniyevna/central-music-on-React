@@ -3,6 +3,7 @@ import {Routes, Route} from "react-router-dom";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import PromoBanner from "./components/PromoBanner";
+import Products from "./components/Products"; 
 
 import Guitars from "./pages/Guitars";
 import Accessories from "./pages/Accessories";
@@ -25,6 +26,7 @@ const App = () => {
         <>
           <Hero/>
           <PromoBanner/>
+          <Products/>
         </>
         }/>
 
