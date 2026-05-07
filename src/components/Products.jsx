@@ -36,9 +36,9 @@ const Products = () => {
                             Product description here
                         </p>
                             <a href="/"
-                            className="font-montserrat font-regular text-base text-gray px-2 py-1 border border-smoke rounded-full ml-6">
+                            className="font-montserrat font-regular text-sm text-gray px-2 py-1 border border-smoke rounded-full ml-6">
                                 <span
-                                className="font-bold text-lg mr-1">
+                                className="font-bold text-base mr-1">
                                     0 
                                 </span>
                                 colors available
@@ -63,9 +63,9 @@ const Products = () => {
                             Product description here
                         </p>
                             <a href="/"
-                            className="font-montserrat font-regular text-base text-gray px-2 py-1 border border-smoke rounded-full ml-6">
+                            className="font-montserrat font-regular text-sm text-gray px-2 py-1 border border-smoke rounded-full ml-6">
                                 <span
-                                className="font-bold text-lg mr-1">
+                                className="font-bold text-base mr-1">
                                     0 
                                 </span>
                                 colors available
@@ -90,9 +90,9 @@ const Products = () => {
                             Product description here
                         </p>
                             <a href="/"
-                            className="font-montserrat font-regular text-base text-gray px-2 py-1 border border-smoke rounded-full ml-6">
+                            className="font-montserrat font-regular text-sm text-gray px-2 py-1 border border-smoke rounded-full ml-6">
                                 <span
-                                className="font-bold text-lg mr-1">
+                                className="font-bold text-base mr-1">
                                     0 
                                 </span>
                                 colors available
@@ -117,9 +117,9 @@ const Products = () => {
                             Product description here
                         </p>
                             <a href="/"
-                            className="font-montserrat font-regular text-base text-gray px-2 py-1 border border-smoke rounded-full ml-6">
+                            className="font-montserrat font-regular text-sm text-gray px-2 py-1 border border-smoke rounded-full ml-6">
                                 <span
-                                className="font-bold text-lg mr-1">
+                                className="font-bold text-base mr-1">
                                     0 
                                 </span>
                                 colors available
