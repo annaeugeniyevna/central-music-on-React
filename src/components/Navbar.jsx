@@ -3,7 +3,7 @@ import { CiMenuBurger  } from "react-icons/ci";
 import {X} from "lucide-react";
 import {NavLink} from "react-router-dom";
 
-import Logo from "../assets/images/Logo.svg";
+import Logo from "../assets/images/logo.png";
 import cartIcon from "../assets/images/cart-icon.svg";
 import profileIcon from "../assets/images/profile-icon.svg";
 
@@ -17,7 +17,8 @@ const Navbar = () => {
                 <nav className="flex justify-between items-center pt-10 pb-2 z-[999]">
                         <a href="/"
                         className="relative z-[110]">
-                            <img src={Logo} alt="Logo - Central Music"/>
+                            <img src={Logo} alt="Logo - Central Music"
+                            className="max-w-[155px] md:max-w-[200px]"/>
                         </a>
                         <button 
                         className="block relative z-[1000]"
