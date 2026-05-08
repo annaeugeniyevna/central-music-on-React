@@ -6,6 +6,7 @@ import PromoBanner from "./components/PromoBanner";
 import Products from "./components/Products"; 
 import Finds from "./components/Finds";
 import NewProducts from "./components/NewProducts";
+import Footer from "./components/Footer";
 
 import Guitars from "./pages/Guitars";
 import Accessories from "./pages/Accessories";
@@ -31,6 +32,7 @@ const App = () => {
           <Products/>
           <Finds/>
           <NewProducts/>
+          <Footer/>
         </>
         }/>
 
