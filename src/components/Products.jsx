@@ -6,20 +6,27 @@ import GuitarOrange from "../assets/images/guitar-orange.png";
 const Products = () => {
     return (
         <section
-        className="mt-15 mb-10">
+        className="mt-15 mb-10
+        md:mt-22 md:mb-20">
             <div
             className="max-w-[1440px] mx-auto px-[5%]">
                 <h2
-                className="font-monserrat font-bold text-2xl text-gray text-center mb-4">
+                className="font-monserrat font-bold text-2xl text-gray text-center mb-4
+                md:text-4xl">
                     <span 
                     className="block w-[90px] h-[3px] bg-primary mx-auto mb-1"></span>
                     New Products
                 </h2>
                 <div
-                className="flex flex-col gap-3">
+                className="flex flex-col gap-3
+                md:grid md:grid-cols-2 md:gap-8">
                     <div 
-                    className="bg-white shadow-md rounded-lg pb-7">
-                        <img src={GuitarGold} alt="Guitar gold"/>
+                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7
+                    md:max-w-[350px]">
+                        <img 
+                        src={GuitarGold} alt="Guitar gold"
+                        className="max-w-[324px]
+                        md:max-w-[330px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -45,8 +52,11 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="bg-white shadow-md rounded-lg pb-7">
-                        <img src={GuitarRed} alt="Guitar red"/>
+                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                        <img 
+                        src={GuitarRed} alt="Guitar red"
+                        className="max-w-[324px]
+                        md:max-w-[330px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -72,8 +82,11 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="bg-white shadow-md rounded-lg pb-7">
-                        <img src={GuitarBlack} alt="Guitar black"/>
+                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                        <img 
+                        src={GuitarBlack} alt="Guitar black"
+                        className="max-w-[324px]
+                        md:max-w-[330px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -99,8 +112,11 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="bg-white shadow-md rounded-lg pb-7">
-                        <img src={GuitarOrange} alt="Guitar orange"/>
+                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                        <img 
+                        src={GuitarOrange} alt="Guitar orange"
+                        className="max-w-[324px]
+                        md:max-w-[330px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
