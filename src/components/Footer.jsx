@@ -12,10 +12,10 @@ const Footer = () => {
             <div
             className="max-w-[1440px] mx-auto px-[5%]">
                 <div
-                className="md:flex md:space-between md:items-center md:gap-7">
+                className="w-full md:flex md:items-center md:justify-between">
                     <div
-                className="md:flex md:gap-22">
-                    <div
+                    className="md:flex md:gap-22">
+                        <div
                     className="pb-8 md:pb-12">
                     <div
                     className="max-w-[110px] mx-auto
@@ -56,8 +56,8 @@ const Footer = () => {
                             </a>
                         </li>
                     </ul>
-                    </div>
-                    <div
+                        </div>
+                        <div
                     className=" hidden 
                     md:block md:pb-8 md:pb-12">
                     <div
@@ -99,7 +99,7 @@ const Footer = () => {
                             </a>
                         </li>
                     </ul>
-                    </div>
+                        </div>
                     </div>
                     <div>
                         <img 
@@ -108,14 +108,22 @@ const Footer = () => {
                         <div
                         className="max-w-[120px] flex flex-row gap-3 mx-auto
                         md:mx-0 md:ml-35">
-                            <img
-                            src={youtubeIcon} alt="Youtube"/>
-                            <img
-                            src={twitterIcon} alt="Twitter"/>
-                            <img
-                            src={instIcon} alt="Instagram"/>
-                            <img
-                            src={facebookIcon} alt="Facebook"/>
+                            <a href="/">
+                                <img
+                                src={youtubeIcon} alt="Youtube"/>
+                            </a>
+                            <a href="/">
+                                <img
+                                src={twitterIcon} alt="Twitter"/>
+                            </a>
+                            <a href="/">
+                                <img
+                                src={instIcon} alt="Instagram"/>
+                            </a>
+                            <a href="/">
+                                <img
+                                src={facebookIcon} alt="Facebook"/>
+                            </a>
                         </div>
                     </div>
                 </div>
