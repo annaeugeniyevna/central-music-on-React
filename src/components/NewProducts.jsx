@@ -2,6 +2,10 @@ import Pedalboard from "../assets/images/pedalboard.png";
 import Guitar from "../assets/images/guitar.png";
 import guitarPiano from "../assets/images/guitar-and-piano.png";
 import manGuitar from "../assets/images/man-with-guitar.png";
+import Musician from "../assets/images/musician.png";
+
+// Variable for cards
+const cardStyle = "transition-all duration-300 hover:scale-105 pointer-cursor";
 
 const NewProducts = () => {
     return (
@@ -19,13 +23,17 @@ const NewProducts = () => {
                 </h2>
                 <div
                 className="flex flex-col gap-6
-                md:grid md:grid-cols-2">
+                md:grid md:grid-cols-2
+                lg:grid lg:grid-cols-6 lg:gap-0 lg:mx-auto">
                     <div
-                    className="max-w-[324px] bg-smoke rounded-xl
-                    md:min-w-[330px] md:mb-4">
+                    className={`max-w-[324px] bg-smoke rounded-xl
+                    md:min-w-[330px] md:mb-4
+                    lg:col-span-3 lg:min-w-[570px] lg:mb-12
+                    ${cardStyle}`}>
                         <img 
                         src={Pedalboard} alt="Pedalboard"
-                        className="md:min-h-[400px] md:min-w-[330px]"/>
+                        className="md:min-h-[400px] md:min-w-[330px]
+                        lg:min-w-[570px]"/>
                         <div 
                         className="px-8 pb-8">
                             <h3
@@ -39,11 +47,14 @@ const NewProducts = () => {
                         </div>
                     </div>
                     <div
-                    className="max-w-[324px] bg-dark-gray rounded-xl
-                    md:min-w-[330px] md:mb-4">
+                    className={`max-w-[324px] bg-dark-gray rounded-xl
+                    md:min-w-[330px] md:mb-4
+                    lg:col-span-3 lg:min-w-[570px] lg:mb-12
+                    ${cardStyle}`}>
                         <img 
                         src={Guitar} alt="Guitar"
-                        className="md:min-h-[400px] md:min-w-[330px]"/>
+                        className="md:min-h-[400px] md:min-w-[330px]
+                        lg:min-w-[570px]"/>
                         <div 
                         className="px-8 pb-8">
                             <h3
@@ -57,11 +68,35 @@ const NewProducts = () => {
                         </div>
                     </div>
                     <div
-                    className="max-w-[324px] bg-smoke rounded-xl
-                    md:min-w-[330px]">
+                    className={`hidden bg-dark-gray rounded-xl
+                    md:min-w-[330px]
+                    lg:block lg:col-span-2 lg:max-w-[360px]
+                    ${cardStyle}`}>
+                        <img 
+                        src={Musician} alt="Man with guitar"
+                        className="md:max-h-[400px]
+                        lg:min-w-[360px]"/>
+                        <div 
+                        className="px-8 pb-8">
+                            <h3
+                            className="font-work font-bold text-2xl text-white mt-8 mb-2">
+                                Article Title
+                            </h3>
+                            <p
+                            className="font-work font-semibold text-lg text-light-gray">
+                                Article Subhead
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                    className={`max-w-[324px] bg-smoke rounded-xl
+                    md:min-w-[330px]
+                    lg:col-span-2 lg:min-w-[360px]
+                    ${cardStyle}`}>
                         <img 
                         src={guitarPiano} alt="Guitar and piano"
-                        className="md:min-h-[400px] md:min-w-[330px]"/>
+                        className="md:min-h-[400px] md:min-w-[330px]
+                        lg:min-w-[360px]"/>
                         <div 
                         className="px-8 pb-8">
                             <h3
@@ -75,11 +110,14 @@ const NewProducts = () => {
                         </div>
                     </div>
                     <div
-                    className="max-w-[324px] bg-dark-gray rounded-xl
-                    md:min-w-[330px]">
+                    className={`max-w-[324px] bg-dark-gray rounded-xl
+                    md:min-w-[330px]
+                    lg:col-span-2 lg:min-w-[360px]
+                    ${cardStyle}`}>
                         <img 
                         src={manGuitar} alt="Man with guitar"
-                        className="md:min-h-[400px] md:min-w-[330px]"/>
+                        className="md:min-h-[400px] md:min-w-[330px]
+                        lg:min-w-[360px]"/>
                         <div 
                         className="px-8 pb-8">
                             <h3
