@@ -3,6 +3,9 @@ import GuitarRed from "../assets/images/guitar-red.png";
 import GuitarBlack from "../assets/images/guitar-black.png";
 import GuitarOrange from "../assets/images/guitar-orange.png";
 
+// Variable for cards
+const cardStyle = "transition-all duration-300 hover:scale-105 cursor-pointer";
+
 const Products = () => {
     return (
         <section
@@ -19,14 +22,18 @@ const Products = () => {
                 </h2>
                 <div
                 className="flex flex-col gap-3
-                md:grid md:grid-cols-2 md:gap-8">
+                md:grid md:grid-cols-2 md:gap-8
+                lg:flex lg:flex-row lg:justify-center">
                     <div 
-                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7
-                    md:max-w-[350px]">
+                    className={`max-w-[324px] bg-white shadow-md rounded-lg pb-7
+                    md:max-w-[330px]
+                    lg:max-w-[370px]
+                    ${cardStyle}`}>
                         <img 
                         src={GuitarGold} alt="Guitar gold"
                         className="max-w-[324px]
-                        md:max-w-[330px]"/>
+                        md:max-w-[330px]
+                        lg:max-w-[370px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -52,11 +59,15 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                    className={`max-w-[324px] bg-white shadow-md rounded-lg pb-7
+                    md:max-w-[330px]
+                    lg:max-w-[370px]
+                    ${cardStyle}`}>
                         <img 
                         src={GuitarRed} alt="Guitar red"
                         className="max-w-[324px]
-                        md:max-w-[330px]"/>
+                        md:max-w-[330px]
+                        lg:max-w-[370px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -82,11 +93,15 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                    className={`max-w-[324px] bg-white shadow-md rounded-lg pb-7
+                    md:max-w-[330px]
+                    lg:max-w-[370px]
+                    ${cardStyle}`}>
                         <img 
                         src={GuitarBlack} alt="Guitar black"
                         className="max-w-[324px]
-                        md:max-w-[330px]"/>
+                        md:max-w-[330px]
+                        lg:max-w-[370px]"/>
                         <div 
                         className="flex justify-between mx-6 mt-4">
                             <h3
@@ -112,7 +127,9 @@ const Products = () => {
                             </a>
                     </div>
                     <div 
-                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7">
+                    className="max-w-[324px] bg-white shadow-md rounded-lg pb-7
+                    md:max-w-[330px]
+                    lg:hidden">
                         <img 
                         src={GuitarOrange} alt="Guitar orange"
                         className="max-w-[324px]
