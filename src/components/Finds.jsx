@@ -1,7 +1,7 @@
 import cableAqua from "../assets/images/guitar-cable-aqua.png";
 import cableGoldish from "../assets/images/tweed-cable-goldish.png";
 import tunerPedal from "../assets/images/guitar-tuner-pedal.png";
-import Strings from "../assets/images/guitar-strings.png";
+import Strings from "../assets/images/guitar-strings.webp";
 
 // Variable for cards
 const cardStyle = "transition-all duration-300 hover:scale-105 cursor-pointer";
@@ -97,6 +97,7 @@ const Finds = () => {
                     ${cardStyle}`}>
                     <img 
                     src={tunerPedal} alt="Guitar gold"
+   
                     className="mx-auto
                     lg:min-w-[380px]"/>
                         <div 

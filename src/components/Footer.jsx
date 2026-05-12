@@ -102,9 +102,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <img 
-                        src={logoIcon} alt="Logo"
-                        className="hidden md:block md:mb-7"/>
+                            <img 
+                            src={logoIcon} alt="Logo"
+                            className="hidden md:block md:mb-7"/>
                         <div
                         className="max-w-[120px] flex flex-row gap-3 mx-auto
                         md:mx-0 md:ml-35">

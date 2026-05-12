@@ -1,8 +1,8 @@
-import Pedalboard from "../assets/images/pedalboard.png";
-import Guitar from "../assets/images/guitar.png";
-import guitarPiano from "../assets/images/guitar-and-piano.png";
-import manGuitar from "../assets/images/man-with-guitar.png";
-import Musician from "../assets/images/musician.png";
+import Pedalboard from "../assets/images/pedalboard.webp";
+import Guitar from "../assets/images/guitar.webp";
+import guitarPiano from "../assets/images/guitar-and-piano.webp";
+import manGuitar from "../assets/images/man-with-guitar.webp";
+import Musician from "../assets/images/musician.webp";
 
 // Variable for cards
 const cardStyle = "transition-all duration-300 hover:scale-105 pointer-cursor";

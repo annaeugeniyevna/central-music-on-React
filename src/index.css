@@ -6,31 +6,37 @@
 @font-face {
     font-family: 'Work Sans', sans-serif;
     src: url('./assets/fonts/WorkSans-Regular.woff2') format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Work Sans', sans-serif;
     src: url('./assets/fonts/WorkSans-Medium.woff2') format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Work Sans', sans-serif;
     src: url('./assets/fonts/WorkSans-Bold.woff2') format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Work Sans', sans-serif;
     src: url('./assets/fonts/WorkSans-SemiBold.woff2') format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('./assets/fonts/Montserrat-Regular.woff2') format('woff2');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2');
+    font-display: swap;
 }
 
 /* Fonts end */

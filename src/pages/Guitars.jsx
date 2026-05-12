@@ -1,4 +1,4 @@
-import guitarGold from "../assets/images/guitar-gold.png";
+import guitarGold from "../assets/images/guitar-gold.webp";
 
 const Guitars = () => {
     return (

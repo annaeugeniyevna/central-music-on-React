@@ -1,7 +1,7 @@
-import GuitarGold from "../assets/images/guitar-gold.png";
-import GuitarRed from "../assets/images/guitar-red.png";
-import GuitarBlack from "../assets/images/guitar-black.png";
-import GuitarOrange from "../assets/images/guitar-orange.png";
+import GuitarGold from "../assets/images/guitar-gold.webp";
+import GuitarRed from "../assets/images/guitar-red.webp";
+import GuitarBlack from "../assets/images/guitar-black.webp";
+import GuitarOrange from "../assets/images/guitar-orange.webp";
 
 // Variable for cards
 const cardStyle = "transition-all duration-300 hover:scale-105 cursor-pointer";
